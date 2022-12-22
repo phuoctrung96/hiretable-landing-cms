@@ -8,7 +8,6 @@ const sndMail = async (data) => {
   try {
     await strapi.plugins['email'].services.email.send({
       to: data.email,
-      from: 'admin@strapi.io',
       subject: 'Your Deal',
       text: `
         PRICE: ${data.price}
