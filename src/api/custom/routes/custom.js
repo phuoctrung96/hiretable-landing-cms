@@ -3,7 +3,7 @@ module.exports = {
     {
       method: 'POST',
       path: '/custom/create',
-      handler: 'custom.exampleAction',
+      handler: 'custom.createDeal',
       config: {
         policies: [],
         middlewares: [],

@@ -24,7 +24,7 @@ const sndMail = async (data) => {
 }
 
 module.exports = {
-  exampleAction: async (ctx, next) => {
+  createDeal: async (ctx, next) => {
     try {
       let data = ctx.request.body;
       if (Object.keys(data).length) {
